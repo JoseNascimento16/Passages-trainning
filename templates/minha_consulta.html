@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<h1>Passagem</h1>
+<p>Sua origem é: {{ formulario2.origem.value }}</p>
+<p>Seu destino é: {{ formulario2.destino.value }}</p>
+<p>Sua data de ida é: {{ formulario2.data_ida.value }}</p>
+<p>Sua data de volta é: {{ formulario2.data_volta.value }}</p>
+<p>Data da pesquisa: {{ formulario2.data_pesquisa.value }}</p>
+<p>Classe do vôo: {{ formulario2.classe_viagem.value }}</p>
+<p>Email: {{ pessoa_formulario.email.value }}</p>
+<p>Informações: {{ formulario2.informacoes.value }}</p>
+
+{% endblock %}
